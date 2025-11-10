@@ -1,11 +1,9 @@
 # 🌲 Forest Coverage Type Predictor
 
 This project predicts the **type of forest cover** based on terrain and environmental features using **machine learning models** trained on the Forest Cover dataset.  
-It includes both a **model training notebook** and a **Streamlit web app** for easy prediction and visualization.
+It includes both a **model training notebook**, **Streamlit web app** & a **Docker image** code for easy prediction, visualization & Deployment.
 
 ---
-
-![Forest Classifier Web](assets/forest_web.png)
 
 ## 🚀 Features
 
@@ -14,7 +12,8 @@ It includes both a **model training notebook** and a **Streamlit web app** for e
 - Uses **RandomizedSearchCV** for hyperparameter tuning  
 - Achieves around **90% accuracy**  
 - Saves and loads the trained model using **pickle**  
-- Provides a **Streamlit web interface** to predict forest cover type from user input  
+- Provides a **Streamlit web interface** to predict forest cover type from user input
+- Deployed of **Dockerhub** as a Docker image
 - Displays related **forest image and name** after prediction
 
 ---
@@ -29,6 +28,12 @@ It includes both a **model training notebook** and a **Streamlit web app** for e
 - **Pandas & NumPy** – Data processing  
 - **Pickle** – Model serialization  
 - **TensorFlow** – Optional imports (not used directly in final model)
+
+---
+## Docker
+
+Could be pulled from Docker by using :
+`docker pull 4ffan/forestcoverage`
 
 ---
 
