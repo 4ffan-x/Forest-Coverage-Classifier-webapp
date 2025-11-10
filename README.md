@@ -5,7 +5,7 @@ It includes both a **model training notebook** and a **Streamlit web app** for e
 
 ---
 
-![Forest Classifier Web](webapp_code/forest_web.png)
+![Forest Classifier Web](assets/forest_web.png)
 
 ## 🚀 Features
 
